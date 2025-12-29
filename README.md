@@ -1,127 +1,70 @@
-# MULTIPLE-DISEASE-PREDICTION-SYSTEM-USING-MACHINE-LEARNING
-A Machine Learning web app to predict multiple diseases like Diabetes, Heart Disease, and liver using Python 
-# Multiple Disease Prediction System
+# Getting Started with Create React App
 
-A full-stack, web-based healthcare support application that uses Machine Learning to predict the likelihood of chronic diseases based on user symptoms and medical parameters.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### 🎯 Project Overview
+## Available Scripts
 
-This system is designed to provide early-stage risk assessment for several chronic conditions, reducing the need for immediate physical consultations and helping users in remote areas access healthcare insights.
+In the project directory, you can run:
 
-**Diseases Predicted:**
+### `npm start`
 
-* 
-**Heart Disease** 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-* 
-**Liver Disease** 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* 
-**Diabetes** 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### ✨ Key Features
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* 
-**Automated Prediction:** Uses trained ML models to analyze clinical data.
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-* 
-**Hospital Recommendations:** Suggests nearby hospitals if a high disease risk is detected.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-* 
-**Integrated Chatbot:** Provides health-related query support through an interactive bot.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-* 
-**Admin Dashboard:** Allows administrators to manage hospital data and monitor user feedback.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* 
-**Early Detection:** Minimizes human intervention and reduces healthcare costs through quick screening.
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-### 🛠️ Tech Stack
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**Backend:**
+### Making a Progressive Web App
 
-* 
-**Language:** Python 3.x 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-* 
-**Framework:** Django & Django REST Framework 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-* 
-**Machine Learning:** Scikit-learn, XGBoost, Random Forest, KNN 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-* 
-**Database:** SQLite / PostgreSQL 
-
-
-
-**Frontend:**
-
-* 
-**Library:** React.js 
-
-
-* 
-**Styling:** HTML, CSS, JavaScript 
-
-
-* 
-**API Communication:** Axios 
-
-
-
-### ⚙️ How It Works
-
-1. 
-**User Input:** Users log in and enter symptoms or clinical data (e.g., medical parameters for Heart or Liver).
-
-
-2. 
-**ML Processing:** The Django backend processes the data using pre-trained models like **Random Forest** or **XGBoost**.
-
-
-3. 
-**Result & Action:** The system displays the risk status and suggests nearby hospitals for further check-ups.
-
-
-
----
-
-### 🚀 Setup Instructions
-
-1. **Clone the Repository:**
-`git clone https://github.com/yourusername/multiple-disease-prediction.git`
-2. **Backend Setup:**
-* Navigate to the backend folder and install dependencies: `pip install -r requirements.txt`.
-
-
-* Run migrations: `python manage.py migrate`.
-* Start the server: `python manage.py runserver`.
-
-
-3. **Frontend Setup:**
-* Navigate to the frontend folder.
-* Install Node modules: `npm install`.
-
-
-* Start the React app: `npm start`.
-
-
-
-
-
----
-
-**Would you like me to help you format a specific "About" section for the GitHub sidebar as well?**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
